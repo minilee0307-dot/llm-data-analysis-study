@@ -7,11 +7,11 @@
 
 ## 0. 제출 정보
 
-- 이름:
-- GitHub ID:
+- 이름: 이성민
+- GitHub ID: minilee0307-dot
 - 개인 저장소명: `llm-data-analysis-study`
-- 작성일:
-- 사용한 LLM:
+- 작성일: 2026-09-08
+- 사용한 LLM: ChatGPT
 
 ### 최종 제출 URL
 
