@@ -107,7 +107,7 @@ orders.csv와 order_items.csv는 order_id를 기준으로 연결하고, order_it
 
 필요한 경우 관계도 또는 데이터 파일 확인 화면을 첨부하세요.
 
-![STEP 2 데이터 구조 확인](images/step02_data_structure.png)
+
 
 ---
 
@@ -291,7 +291,7 @@ Chapter 02 또는 Chapter 03에서 추가로 확인해야 할 내용을 작성�
 
 #### Evidence
 
-![STEP 7 Notebook 실행 결과](images/step07_notebook_result.png)
+
 
 > 환경설정 전이라면 이 이미지는 생략할 수 있습니다.
 
