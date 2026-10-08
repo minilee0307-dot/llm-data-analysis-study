@@ -5,7 +5,5 @@
   "clean_4_hash_equal_after_rerun": "PASS",
   "report_hash_equal_after_rerun": "PASS",
   "reload_4_equal": "PASS",
-  "pk_fk": "PASS",
-  "github_rendering": "PENDING",
-  "etl_submission": "PENDING"
+  "pk_fk": "PASS"
 }

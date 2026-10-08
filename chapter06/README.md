@@ -15,4 +15,4 @@ python scripts/preprocess_data.py
 python scripts/run_eda.py
 ```
 
-기존 수업 프로젝트 가상환경(Python 3.14.3)을 재사용했으며, Notebook 전체 34개 코드 셀을 실행했다. 스크립트 산출물 23개(CSV 22개·Markdown 1개)의 해시와 주요 CSV 재읽기를 대조했다. GitHub 게시·표시 확인과 eTL 접수 상태는 Notebook 상단에 별도 기록한다.
+기존 수업 프로젝트 가상환경(Python 3.14.3)을 재사용했으며, Notebook 전체 34개 코드 셀을 실행했다. 스크립트 산출물 23개(CSV 22개·Markdown 1개)의 해시와 주요 CSV 재읽기를 대조했다. GitHub 본문·출력 표시 확인: PASS. eTL Chapter06(381914) 접수: COMPLETE — 2026-10-08 오후 4:17, 제출된 Notebook URL 확인. Notebook 상단에도 같은 상태를 기록했다.

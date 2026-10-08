@@ -7,7 +7,7 @@
 - Notebook 코드 21셀을 모두 실행했고 오류 출력은 없다.
 - 공식 Notebook·추가 실습6문제와 템플릿0–7을 반영했다.
 - 핵심 Evidence1–6은 Notebook의 실제 출력으로 제공한다.
-- GitHub 게시/렌더링과 eTL 제출은 실제 성공 확인까지 별도로 대기한다.
+- GitHub 본문·출력 표시 확인: PASS. eTL Chapter05(381907) 접수: COMPLETE — 2026-10-08 오후 4:17, 제출된 Notebook URL 확인.
 
 ## 입력과 산출물
 
