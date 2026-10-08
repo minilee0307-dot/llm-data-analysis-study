@@ -1,0 +1,269 @@
+{
+  "checked_at": "2026-10-08T17:28:07+09:00",
+  "scope": "Codex-assisted automated feasibility checks; no completed main analysis",
+  "source_commit": "8c9b19d6e463a50919d9df60a512e1e8d6b00125",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "nibabel": "5.4.2"
+  },
+  "manifest": [
+    {
+      "file": "README.md",
+      "url": "https://raw.githubusercontent.com/SNU-LIST/chi-separation-atlas/8c9b19d6e463a50919d9df60a512e1e8d6b00125/README.md",
+      "bytes": 2587,
+      "sha256": "8c37d634cbd52cd1b0793ffd0444acb0135a489fafcae0aaebb99f5c94814c43"
+    },
+    {
+      "file": "LICENSE.pdf",
+      "url": "https://raw.githubusercontent.com/SNU-LIST/chi-separation-atlas/8c9b19d6e463a50919d9df60a512e1e8d6b00125/LICENSE.pdf",
+      "bytes": 168299,
+      "sha256": "3fcfd0d2455665536177ac9772ea1a749b1fa5e8b300ab98b3ff8bd6efda9e1c"
+    },
+    {
+      "file": "chi_para_ROI_stats.csv",
+      "url": "https://raw.githubusercontent.com/SNU-LIST/chi-separation-atlas/8c9b19d6e463a50919d9df60a512e1e8d6b00125/chi_para_ROI_stats.csv",
+      "bytes": 1202,
+      "sha256": "a22f0e35ac9555b5e4b29741353dff566dff839fba1bee8cfd746f3eadd92924"
+    },
+    {
+      "file": "chi_dia_ROI_stats.csv",
+      "url": "https://raw.githubusercontent.com/SNU-LIST/chi-separation-atlas/8c9b19d6e463a50919d9df60a512e1e8d6b00125/chi_dia_ROI_stats.csv",
+      "bytes": 1228,
+      "sha256": "23710c986d0021b5b40f58406a375aa2c63bf79a4afa9702e0e086a1c43dcb07"
+    },
+    {
+      "file": "label_names.csv",
+      "url": "https://raw.githubusercontent.com/SNU-LIST/chi-separation-atlas/8c9b19d6e463a50919d9df60a512e1e8d6b00125/label_names.csv",
+      "bytes": 657,
+      "sha256": "7b344b405dbc6464eda786eb528ace4c2caf71bf525a28d5b7cd20533233cf4b"
+    },
+    {
+      "file": "NIfTI/labels.nii.gz",
+      "url": "https://raw.githubusercontent.com/SNU-LIST/chi-separation-atlas/8c9b19d6e463a50919d9df60a512e1e8d6b00125/NIfTI/labels.nii.gz",
+      "bytes": 56805,
+      "sha256": "4aee27cafc5830aa22f791aa82fd8f984a4139169385bf116922f042b12aeb3c"
+    },
+    {
+      "file": "NIfTI/chi.nii.gz",
+      "url": "https://raw.githubusercontent.com/SNU-LIST/chi-separation-atlas/8c9b19d6e463a50919d9df60a512e1e8d6b00125/NIfTI/chi.nii.gz",
+      "bytes": 16792983,
+      "sha256": "6d9eb080e4ea0ff876fd747ba5b8a974918b157afede09669016c01e44e2f614"
+    },
+    {
+      "file": "NIfTI/chi_para.nii.gz",
+      "url": "https://raw.githubusercontent.com/SNU-LIST/chi-separation-atlas/8c9b19d6e463a50919d9df60a512e1e8d6b00125/NIfTI/chi_para.nii.gz",
+      "bytes": 16501223,
+      "sha256": "742da6b44d56cae1cdb06505adf13f01e7dcf3119c08f2b29272385fce2409f2"
+    },
+    {
+      "file": "NIfTI/chi_dia.nii.gz",
+      "url": "https://raw.githubusercontent.com/SNU-LIST/chi-separation-atlas/8c9b19d6e463a50919d9df60a512e1e8d6b00125/NIfTI/chi_dia.nii.gz",
+      "bytes": 16516720,
+      "sha256": "37b29902326f6e8a4ab4a58c3f31a3ba6bae9d433c3263dc24eb3d2667573e18"
+    }
+  ],
+  "tables": {
+    "chi_para_ROI_stats": {
+      "rows": 26,
+      "columns": [
+        "ROI_name",
+        "Mean",
+        "SD"
+      ],
+      "dtypes": {
+        "ROI_name": "str",
+        "Mean": "float64",
+        "SD": "float64"
+      },
+      "missing_cells": 0,
+      "duplicate_rows": 0,
+      "duplicate_keys": 0,
+      "numeric_conversion_failures": 0,
+      "nonfinite_numeric_values": 0,
+      "negative_sd_count": 0,
+      "negative_mean_count": 0
+    },
+    "chi_dia_ROI_stats": {
+      "rows": 26,
+      "columns": [
+        "ROI_name",
+        "Mean",
+        "SD"
+      ],
+      "dtypes": {
+        "ROI_name": "str",
+        "Mean": "float64",
+        "SD": "float64"
+      },
+      "missing_cells": 0,
+      "duplicate_rows": 0,
+      "duplicate_keys": 0,
+      "numeric_conversion_failures": 0,
+      "nonfinite_numeric_values": 0,
+      "negative_sd_count": 0,
+      "negative_mean_count": 26
+    },
+    "label_names": {
+      "rows": 24,
+      "columns": [
+        "Index",
+        "ROI_name"
+      ],
+      "dtypes": {
+        "Index": "int64",
+        "ROI_name": "str"
+      },
+      "missing_cells": 0,
+      "duplicate_rows": 0,
+      "duplicate_keys": 0
+    }
+  },
+  "joins_after_quote_normalization": {
+    "chi_para_ROI_stats": {
+      "matched_mask_regions": 24,
+      "stats_only_regions": [
+        "Whole thalamus",
+        "Whole white matter"
+      ],
+      "labels_only_regions": []
+    },
+    "chi_dia_ROI_stats": {
+      "matched_mask_regions": 24,
+      "stats_only_regions": [
+        "Whole thalamus",
+        "Whole white matter"
+      ],
+      "labels_only_regions": []
+    }
+  },
+  "labels": {
+    "shape": [
+      193,
+      229,
+      193
+    ],
+    "dtype": "uint16",
+    "integer_values_only": true,
+    "background_value": 0,
+    "nonzero_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "mask_ids_equal_csv_ids": true,
+    "voxel_counts": {
+      "1": 9836,
+      "2": 10108,
+      "3": 4347,
+      "4": 669,
+      "5": 873,
+      "6": 600,
+      "7": 223,
+      "8": 187,
+      "9": 1055,
+      "10": 824,
+      "11": 1506,
+      "12": 5183,
+      "13": 8581,
+      "14": 7677,
+      "15": 1746,
+      "16": 2805,
+      "17": 4142,
+      "18": 2714,
+      "19": 9175,
+      "20": 10610,
+      "21": 4077,
+      "22": 4813,
+      "23": 2605,
+      "24": 7582
+    }
+  },
+  "images": {
+    "chi": {
+      "shape": [
+        193,
+        229,
+        193
+      ],
+      "dtype": "float64",
+      "voxel_size_header": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "header_space_time_units": [
+        "mm",
+        "unknown"
+      ],
+      "same_shape_as_labels": true,
+      "same_affine_as_labels": true,
+      "nonfinite_voxels": 0,
+      "negative_voxels_within_labels": 70863
+    },
+    "chi_para": {
+      "shape": [
+        193,
+        229,
+        193
+      ],
+      "dtype": "float64",
+      "voxel_size_header": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "header_space_time_units": [
+        "mm",
+        "unknown"
+      ],
+      "same_shape_as_labels": true,
+      "same_affine_as_labels": true,
+      "nonfinite_voxels": 0,
+      "negative_voxels_within_labels": 0
+    },
+    "chi_dia": {
+      "shape": [
+        193,
+        229,
+        193
+      ],
+      "dtype": "float64",
+      "voxel_size_header": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "header_space_time_units": [
+        "mm",
+        "unknown"
+      ],
+      "same_shape_as_labels": true,
+      "same_affine_as_labels": true,
+      "nonfinite_voxels": 0,
+      "negative_voxels_within_labels": 0
+    }
+  }
+}

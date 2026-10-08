@@ -22,4 +22,4 @@ python scripts/run_eda.py
 
 각 Notebook도 해당 챕터 폴더에서 처음부터 끝까지 실행할 수 있다. 실제 실행 출력, 처리·제외 이유, LLM 제안의 채택 판단, 재실행 결과는 Notebook과 보고서에 담았다. GitHub 게시와 eTL 접수 상태는 별도로 확인하며, Notebook의 상태 기록을 따른다.
 
-자유 주제인 **데이터분석 프로젝트 1차 과제 — 프로젝트 기획**은 이 챕터 실습들과 별개의 제출물이다.
+자유 주제인 **데이터분석 프로젝트 1차 과제 — 프로젝트 기획**은 이 챕터 실습들과 별개의 제출물이다. [프로젝트 기획안](data-analysis-project/01_proposal/01_proposal.md)은 공개 χ-separation 뇌지도의 영역별 특성과 ROI 경계 민감도를 분석하는 계획이다. 실제 파일 확보와 구조 검사 근거는 [프로젝트 폴더](data-analysis-project/README.md)에 정리했다.
