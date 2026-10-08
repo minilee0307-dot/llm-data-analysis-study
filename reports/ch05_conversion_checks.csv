@@ -1,0 +1,7 @@
+﻿dataset,column,kind,input_rows,original_missing,parse_failures_before_formatting,comma_removed,recovered_unit_suffix,new_parse_failures,missing_after_conversion
+customers,age,numeric,150,4,2,0,0,2,6
+products,price,numeric,100,0,6,4,0,2,2
+order_items,quantity,numeric,763,0,5,0,3,2,2
+order_items,unit_price,numeric,763,0,7,5,0,2,2
+customers,signup_date,date,150,0,2,0,0,2,2
+orders,order_date,date,300,0,3,0,0,3,3

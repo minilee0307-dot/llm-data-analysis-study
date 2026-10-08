@@ -1,0 +1,4 @@
+﻿relationship,invalid_count
+orders.customer_id → customers.customer_id,0
+order_items.order_id → orders.order_id,0
+order_items.product_id → products.product_id,0

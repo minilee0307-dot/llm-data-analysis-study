@@ -1,0 +1,7 @@
+﻿dataset,raw_row_number,stage,reasons,product_id,product_name,category,price
+products,102,duplicate,full_row_duplicate,30,도서 상품 030,도서,149000
+products,103,duplicate,full_row_duplicate,84,식품 상품 084,식품,42000
+products,19,numeric_rule,price_conversion_failed,18,패션 상품 018,패션,unknown
+products,49,numeric_rule,nonpositive_price_candidate,48,뷰티 상품 048,뷰티,0
+products,74,numeric_rule,price_conversion_failed,73,도서 상품 073,도서,unknown
+products,96,numeric_rule,nonpositive_price_candidate,95,스포츠 상품 095,스포츠,-20000

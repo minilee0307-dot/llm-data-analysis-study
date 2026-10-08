@@ -1,0 +1,5 @@
+﻿dataset,raw_row_number,stage,reasons,order_id,customer_id,order_date,payment_method,order_status
+orders,302,duplicate,full_row_duplicate,44,128,2026-08-01,bank_transfer,refunded
+orders,303,duplicate,full_row_duplicate,205,10,2025-09-10,kakao_pay,cancelled
+orders,127,foreign_key,customer_fk_absent_in_raw_master,126,9991,2026-01-13,naver_pay,completed
+orders,279,foreign_key,customer_fk_absent_in_raw_master,278,9992,2026-07-10,kakao_pay,cancelled

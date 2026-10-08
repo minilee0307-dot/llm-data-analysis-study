@@ -1,0 +1,11 @@
+{
+  "notebook_and_script": "PASS",
+  "raw_4_preserved": "PASS",
+  "clean_4_nonempty": "PASS",
+  "clean_4_hash_equal_after_rerun": "PASS",
+  "report_hash_equal_after_rerun": "PASS",
+  "reload_4_equal": "PASS",
+  "pk_fk": "PASS",
+  "github_rendering": "PENDING",
+  "etl_submission": "PENDING"
+}

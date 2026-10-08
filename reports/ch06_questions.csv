@@ -1,0 +1,6 @@
+﻿질문,분석 범위,필요 데이터,지표,계산 방법,검증 방법
+카테고리별 금액 차이는 수량과 거래 단가에서 어떻게 나타나는가?,"2025-07-02~2026-08-28 양 끝 포함, completed, 유효 주문일≤2026-10-08; 금액=quantity×unit_price","orders, order_items, products",금액·수량·수량가중 거래단가,groupby sum; 금액/수량,카테고리 합계=집계 전 clean completed 합계
+월별 주문 수와 평균 주문금액은 어떻게 달라지는가?,"2025-07-02~2026-08-28 양 끝 포함, completed, 유효 주문일≤2026-10-08; 금액=quantity×unit_price","orders, order_items",월 금액·고유 주문 수·주문당 금액,order_id별 합산 후 월별 집계,월 합계=집계 전 clean; 두 집계 방식 일치
+도시별 고객 수와 완료 주문금액 순위는 같은가?,"2025-07-02~2026-08-28 양 끝 포함, completed, 유효 주문일≤2026-10-08; 금액=quantity×unit_price; 고객수는 clean 고객 전체","customers, orders, order_items",도시 고객수·구매고객수·금액·고객당 금액,customer_id→city many_to_one,도시 합계=집계 전 clean; 고객수 합계=clean 고객수
+결제수단별 평균 주문금액은 어떻게 다른가?,"2025-07-02~2026-08-28 양 끝 포함, completed, 유효 주문일≤2026-10-08; 금액=quantity×unit_price","orders, order_items",결제수단별 주문금액 평균·주문 수,라인→주문 합산→결제수단별 mean,주문금액 총합=집계 전 clean; 라인평균과 구분
+반복 구매 고객과 고액 1회 고객은 몇 명인가?,"2025-07-02~2026-08-28 양 끝 포함, completed, 유효 주문일≤2026-10-08; 금액=quantity×unit_price","customers, orders, order_items",고유 주문수·총금액·평균 주문금액,고객별 nunique; 반복≥2; 고액1회≥전체 주문금액75%분위,고객 합계=집계 전 clean; 분류 기준·기간 고정

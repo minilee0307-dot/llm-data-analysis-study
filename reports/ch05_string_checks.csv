@@ -1,0 +1,14 @@
+﻿dataset,column,trimmed_cells,blank_to_missing
+customers,name,0,0
+customers,gender,0,0
+customers,age,0,0
+customers,city,5,0
+customers,signup_date,0,0
+products,product_name,0,0
+products,category,3,0
+products,price,0,0
+orders,order_date,0,0
+orders,payment_method,5,0
+orders,order_status,0,0
+order_items,quantity,0,0
+order_items,unit_price,0,0

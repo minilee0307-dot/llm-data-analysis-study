@@ -1,0 +1,28 @@
+{
+  "source_commit": "b1597e1",
+  "reference_date": "2026-10-08",
+  "raw_sha256_before": {
+    "customers.csv": "ef4e554eaae1bb0cb7605aa9e4503aad1e68bbf1eae9093def5c2d04bd26b8cc",
+    "products.csv": "cad0a825a29078d9451aa74fdfa9e61d474f442d2e377839eca24e9595debbf0",
+    "orders.csv": "bb32cb334b9e4920f68e6ef55df17d414bdc51f7c28a58fa3bf1bfb6b2aa5fa1",
+    "order_items.csv": "e59b236328b6b094fdcbc0142af35b7ccb54e4246e1a57180c39997582303e5f"
+  },
+  "raw_sha256_after": {
+    "customers.csv": "ef4e554eaae1bb0cb7605aa9e4503aad1e68bbf1eae9093def5c2d04bd26b8cc",
+    "products.csv": "cad0a825a29078d9451aa74fdfa9e61d474f442d2e377839eca24e9595debbf0",
+    "orders.csv": "bb32cb334b9e4920f68e6ef55df17d414bdc51f7c28a58fa3bf1bfb6b2aa5fa1",
+    "order_items.csv": "e59b236328b6b094fdcbc0142af35b7ccb54e4246e1a57180c39997582303e5f"
+  },
+  "processed_sha256": {
+    "customers_clean.csv": "97378fa2db226653ef8da945d14e6ed50136f5f8431e5fd692c7f1576f29f174",
+    "products_clean.csv": "8791b51dadbe63b4deef6a0ebff3e6883275213dddf7098e508193e36071072a",
+    "orders_clean.csv": "a121e15ebc5f2599e74c2a53717a81363d49957e92e0490cf42f87e78d901d3c",
+    "order_items_clean.csv": "d5c7a6faf318fff67c8c86af515b3fece14e8b9fd268b8942aad27e8f8511eaa"
+  },
+  "age_imputation_median": 41.0,
+  "candidate_thresholds": {
+    "products.price_iqr_upper": 304000.0,
+    "order_items.quantity_iqr_upper": 7.0
+  },
+  "raw_preserved": true
+}
