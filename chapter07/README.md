@@ -17,3 +17,5 @@ python scripts/run_visualization.py
 ```
 
 Notebook 코드 17개 실행·오류 0, 집계 검증 20개와 artist 검증 23개가 통과했다. Notebook/스크립트의 PNG 7개·CSV 10개·요약 보고서 1개 해시가 일치했다. 결과는 [보고서](../reports/ch07_visualization_summary.md)에 있다. GitHub 표시와 eTL 접수 상태는 Notebook 상단에서 별도로 확인한다.
+
+2026-10-11 GitHub에서 코드·저장 출력·그래프 7개와 상대 이미지 링크를 확인했다. eTL은 **2026-10-11 21:36 (Asia/Seoul) 제출됨**이며 [최종 Notebook 파일 URL](https://github.com/minilee0307-dot/llm-data-analysis-study/blob/main/chapter07/chapter07.ipynb)을 접수했다. 온라인 확인과 제출은 Codex의 도움을 받았다. 채점 결과는 아직 나오지 않았다.
