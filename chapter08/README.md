@@ -17,3 +17,5 @@ python scripts/run_midterm_project.py
 ```
 
 [보고서](../reports/ch08_midterm_report.md), [최종 Validation](../reports/ch08_project_validation.csv), [총합 검증](../reports/ch08_total_consistency_check.csv)을 함께 확인할 수 있다. CSV26개·그림3개와 공식 경로의 동일 그림 복사본3개·보고서1개, 총33개 산출물은 Notebook/스크립트 재실행 해시가 일치했다. 온라인 게시·접수 상태는 Notebook 상단에서 별도로 기록한다.
+
+GitHub에서 본문·저장 출력·그래프3개와 상대 이미지 링크를 확인했다. eTL은 **2026-10-27 14:58 (Asia/Seoul) 제출됨**이며 [최종 Notebook 파일 URL](https://github.com/minilee0307-dot/llm-data-analysis-study/blob/main/chapter08/chapter08.ipynb)을 접수했다. 온라인 확인과 제출은 Codex의 도움을 받았다. 채점 결과는 아직 없다.
