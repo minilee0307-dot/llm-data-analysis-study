@@ -1,0 +1,4 @@
+﻿stage,rule,detail_rows,orders,amount,action,status
+before,completed invalid dates,6,2,1903000,날짜를 추정하지 않고 세 금액 집계의 공통 범위에서 명시적으로 제외,FAIL
+before,completed date after 2026-10-08,3,1,909000,고정 기준일을 넘으므로 모든 금액 집계에서 공통 제외,FAIL
+after,completed + valid date + date <= fixed_as_of,421,175,134523000,원래 NaT/후보 플래그는 보존하고 분석 대상만 한정,PASS

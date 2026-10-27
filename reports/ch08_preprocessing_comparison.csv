@@ -1,0 +1,5 @@
+﻿dataset,rows_before,columns_before,missing_cells_before,full_row_duplicates_before,key_missing_before,key_duplicates_before,rows_after,columns_after,missing_cells_after,full_row_duplicates_after,key_missing_after,key_duplicates_after
+customers,152,6,6,2,0,2,150,11,2,0,0,0
+products,102,4,0,2,0,2,96,5,0,0,0,0
+orders,302,5,0,2,0,2,298,10,9,0,0,0
+order_items,765,5,0,2,0,2,724,7,0,0,0,0

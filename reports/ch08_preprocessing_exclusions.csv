@@ -1,0 +1,17 @@
+﻿dataset,stage,reasons,excluded_rows
+customers,duplicate,full_row_duplicate,2
+order_items,duplicate,full_row_duplicate,2
+order_items,foreign_key,order_fk_absent_in_raw_master,2
+order_items,foreign_key,order_fk_removed_by_cleaning,3
+order_items,foreign_key,order_fk_removed_by_cleaning | product_fk_absent_in_raw_master,1
+order_items,foreign_key,product_fk_absent_in_raw_master,1
+order_items,foreign_key,product_fk_removed_by_cleaning,24
+order_items,numeric_rule,nonpositive_quantity_candidate,3
+order_items,numeric_rule,nonpositive_unit_price_candidate,1
+order_items,numeric_rule,quantity_conversion_failed,2
+order_items,numeric_rule,unit_price_conversion_failed,2
+orders,duplicate,full_row_duplicate,2
+orders,foreign_key,customer_fk_absent_in_raw_master,2
+products,duplicate,full_row_duplicate,2
+products,numeric_rule,nonpositive_price_candidate,2
+products,numeric_rule,price_conversion_failed,2

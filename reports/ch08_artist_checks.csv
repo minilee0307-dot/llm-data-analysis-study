@@ -1,0 +1,11 @@
+﻿그래프 검증,실제값,기대값,통과,graph
+bar heights,134523000.0,134523000.0,True,category_sales
+범주 순서,7.0,7.0,True,category_sales
+값 축 시작,0.0,0.0,True,category_sales
+line y,134523000.0,134523000.0,True,monthly_sales
+line x 달력,14.0,14.0,True,monthly_sales
+시간 정렬,1.0,1.0,True,monthly_sales
+누락 월을 0으로 채우지 않음,0.0,0.0,True,monthly_sales
+barh widths,41420000.0,41420000.0,True,top_customers
+익명 라벨 수,10.0,10.0,True,top_customers
+값 축 시작,0.0,0.0,True,top_customers

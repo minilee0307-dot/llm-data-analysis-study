@@ -1,0 +1,3 @@
+﻿scope,detail_rows,order_count,amount
+retained_valid_details_including_partial_orders,421,175,134523000
+exclude_entire_partially_retained_orders,377,157,120972000

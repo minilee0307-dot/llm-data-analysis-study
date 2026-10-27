@@ -1,0 +1,16 @@
+﻿parameter,value
+analysis_as_of,2026-10-08
+written_date,2026-10-27
+date_start,2025-07-02
+date_end,2026-08-28
+eligible_orders_before_detail_join,176
+orders_with_retained_details,175
+eligible_orders_without_details,1
+selected_detail_rows,421
+purchasing_customers,96
+selected_partially_retained_orders,18
+selected_partial_detail_rows,44
+selected_partial_amount,13551000
+calendar_months,14
+unobserved_months,0
+observed_zero_amount_months,0

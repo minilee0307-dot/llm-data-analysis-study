@@ -1,0 +1,6 @@
+﻿scope,amount,detail_rows,order_count
+all_order_items_not_revenue,244374000,724,297
+completed_before_date_scope,137335000,430,178
+excluded_invalid_date_completed,1903000,6,2
+excluded_after_fixed_as_of_completed,909000,3,1
+final_completed_valid_date_as_of,134523000,421,175

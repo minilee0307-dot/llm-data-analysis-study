@@ -1,0 +1,5 @@
+﻿dataset,key,missing_count,duplicate_count,status
+customers,customer_id,0,0,PASS
+products,product_id,0,0,PASS
+orders,order_id,0,0,PASS
+order_items,order_item_id,0,0,PASS

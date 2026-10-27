@@ -1,0 +1,15 @@
+﻿check,value,expected,status
+pk_integrity,all PASS,all PASS,PASS
+fk_integrity,0,0,PASS
+merge_checks_pass,all PASS,all PASS,PASS
+line_total_consistency,0,0,PASS
+completed_total_consistency,all match,all match,PASS
+category_sales_ratio_pct_sum,100.0,100,PASS
+completed_rows_with_invalid_order_date,0,0,PASS
+completed_rows_after_fixed_as_of,0,0,PASS
+public_customer_columns_safe,no forbidden columns,no forbidden columns,PASS
+completed_scope_consistent,True,True,PASS
+raw_csv_Decimal_recalculation,all match,all match,PASS
+graph_artist_values_match,10,10,PASS
+raw_to_clean_reproduction,4,4,PASS
+existing_raw_clean_inputs_preserved,8,8,PASS

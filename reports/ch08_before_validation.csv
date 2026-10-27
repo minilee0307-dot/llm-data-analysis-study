@@ -1,0 +1,4 @@
+﻿check,value,expected,affected_amount,status
+completed_rows_with_invalid_order_date,6,0,1903000,FAIL
+monthly_total_before_scope_resolution,135432000,137335000,1903000,FAIL
+completed_rows_after_fixed_as_of,3,0,909000,FAIL

@@ -1,0 +1,7 @@
+﻿check,actual,expected,status
+raw csv Decimal completed total,134523000,134523000,PASS
+raw csv independent category amounts,7,7,PASS
+raw csv independent monthly amounts,14,14,PASS
+raw csv independent customer amounts,96,96,PASS
+raw csv independent monthly unique orders,175,175,PASS
+raw csv independent selected detail rows,421,421,PASS

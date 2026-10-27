@@ -1,0 +1,14 @@
+﻿dataset,column,action,changed_cells
+customers,age,median_imputation,6
+customers,age,numeric_conversion,4
+customers,city,trim_or_blank_to_missing,5
+customers,city,unknown_category,2
+customers,signup_date,date_conversion,150
+order_items,quantity,numeric_conversion,5
+order_items,unit_price,numeric_conversion,7
+orders,order_date,date_conversion,300
+orders,order_status,status_standardization,15
+orders,payment_method,trim_or_blank_to_missing,5
+products,category,category_exact_mapping,3
+products,category,trim_or_blank_to_missing,3
+products,price,numeric_conversion,6
