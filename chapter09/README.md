@@ -22,3 +22,5 @@ python scripts/run_regression_analysis.py
 원본 캐시와 Internal CSV2개는 생성하되 Git에서 제외한다. 공개 결과에는 순위 라벨만 남겼다. 두 스크립트 재실행의 전체25개 산출물(Internal2개 포함) 해시가 일치하고 기존 raw/clean8개는 변경하지 않았다. 프로필의 과거 시점과 예정 결제수단 가용성은 가정이며 실제 운영 전에 확인해야 한다. 신규 고객에 대한 일반화도 입증하지 않았다.
 
 [공개 보고서](../reports/ch09_regression_report.md), [Validation](../reports/ch09_regression_validation.csv), [Train CV](../reports/ch09_regression_cv_summary.csv), [최종 평가](../reports/ch09_regression_model_comparison.csv)를 확인할 수 있다. 온라인 게시와 eTL 접수 상태는 Notebook 상단에 별도로 기록한다.
+
+GitHub 본문·실행 출력·그래프2개와 상대 이미지 링크를 확인했다. eTL은 **2026-11-02 14:33 (Asia/Seoul) 제출됨**이며 [최종 Notebook 파일 URL](https://github.com/minilee0307-dot/llm-data-analysis-study/blob/main/chapter09/chapter09.ipynb)을 접수했다. 온라인 확인과 제출은 Codex의 도움을 받았다. 채점 결과는 아직 없다.
