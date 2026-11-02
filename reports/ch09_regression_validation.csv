@@ -1,0 +1,16 @@
+﻿check,value,status
+forbidden_feature_overlap,0,PASS
+strict_train_before_test,True,PASS
+selected_model_exists_in_train_cv,True,PASS
+final_test_contains_baseline,True,PASS
+final_test_contains_frozen_selected_model,True,PASS
+test_rows_for_r2,56,PASS
+target_and_relationship_checks,18,PASS
+strict_cv_date_groups,5,PASS
+train_only_preprocessing_audit,15,PASS
+selected_is_minimum_train_cv_mae,Random Forest,PASS
+selection_manifest_unchanged,True,PASS
+exactly_baseline_and_frozen_final_models,2,PASS
+metrics_independently_recalculated,8,PASS
+public_prediction_identifier_overlap,0,PASS
+graph_artist_values_match,4,PASS

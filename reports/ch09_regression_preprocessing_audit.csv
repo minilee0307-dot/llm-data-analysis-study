@@ -1,0 +1,16 @@
+﻿model,fold,fit_rows,numeric_median_matches_train,scaler_mean_matches_train,encoder_categories_match_train,status
+Baseline Mean,1,42,True,True,True,PASS
+Baseline Mean,2,78,True,True,True,PASS
+Baseline Mean,3,119,True,True,True,PASS
+Baseline Mean,4,162,True,True,True,PASS
+Baseline Mean,5,206,True,True,True,PASS
+Linear Regression,1,42,True,True,True,PASS
+Linear Regression,2,78,True,True,True,PASS
+Linear Regression,3,119,True,True,True,PASS
+Linear Regression,4,162,True,True,True,PASS
+Linear Regression,5,206,True,True,True,PASS
+Random Forest,1,42,True,True,True,PASS
+Random Forest,2,78,True,True,True,PASS
+Random Forest,3,119,True,True,True,PASS
+Random Forest,4,162,True,True,True,PASS
+Random Forest,5,206,True,True,True,PASS

@@ -1,0 +1,7 @@
+﻿step,event
+1,prepare target and split
+2,train-only CV candidates
+3,select by train CV
+4,write frozen manifest
+5,evaluate baseline and frozen model on final test
+6,validate and save outputs

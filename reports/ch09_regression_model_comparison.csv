@@ -1,0 +1,3 @@
+﻿model,selection_role,train_MAE,test_MAE,test_RMSE,test_R2,MAE_improvement_vs_baseline_pct
+Baseline Mean,baseline,416266.1918839022,443449.6487119438,522189.699620288,-0.0011209787865760212,0.0
+Random Forest,selected_by_train_cv,326438.4781318236,458819.9172343142,548190.4467230146,-0.10329814000855109,-3.47

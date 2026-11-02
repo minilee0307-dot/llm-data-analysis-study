@@ -6,3 +6,6 @@ ipykernel==7.3.0
 nbconvert==7.17.1
 matplotlib==3.11.1
 tabulate==0.10.0
+scikit-learn==1.9.0
+scipy==1.18.1
+joblib==1.6.0

@@ -1,0 +1,28 @@
+{
+  "stage": "train_cv_frozen_before_final_test",
+  "selected_model": "Random Forest",
+  "selection_rule": "minimum mean CV MAE among non-baseline candidates; tie by model name",
+  "selected_cv_mae": 431319.9941325888,
+  "cv_summary_sha256": "049a5025213f760cfa124de223f023e7db43f729893f800a0d1e4323f889584d",
+  "cv_split": "TimeSeriesSplit on unique training dates, n_splits=5",
+  "test_size_unique_dates": 0.2,
+  "random_state": 42,
+  "features": [
+    "order_month",
+    "order_dayofweek",
+    "age",
+    "payment_method",
+    "gender",
+    "city"
+  ],
+  "fixed_candidates": {
+    "Baseline Mean": "DummyRegressor(strategy=mean)",
+    "Linear Regression": "LinearRegression()",
+    "Random Forest": {
+      "n_estimators": 300,
+      "min_samples_leaf": 5,
+      "random_state": 42,
+      "n_jobs": 1
+    }
+  }
+}

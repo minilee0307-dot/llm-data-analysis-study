@@ -1,0 +1,25 @@
+﻿check,value,expected,status
+customers.pk_missing,0,0,PASS
+customers.pk_duplicate,0,0,PASS
+customers.whole_row_duplicate,0,0,PASS
+products.pk_missing,0,0,PASS
+products.pk_duplicate,0,0,PASS
+products.whole_row_duplicate,0,0,PASS
+orders.pk_missing,0,0,PASS
+orders.pk_duplicate,0,0,PASS
+orders.whole_row_duplicate,0,0,PASS
+order_items.pk_missing,0,0,PASS
+order_items.pk_duplicate,0,0,PASS
+order_items.whole_row_duplicate,0,0,PASS
+customers.signup_date_missing,0,0,PASS
+orders.order_date_missing,0,0,PASS
+FK orders.customer_id,0,0,PASS
+FK order_items.order_id,0,0,PASS
+FK order_items.product_id,0,0,PASS
+nonpositive_quantity,0,0,PASS
+nonpositive_unit_price,0,0,PASS
+customers.row_loss,0,0,PASS
+products.row_loss,0,0,PASS
+orders.row_loss,0,0,PASS
+order_items.row_loss,0,0,PASS
+existing_inputs_preserved,8,8,PASS

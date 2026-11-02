@@ -1,0 +1,5 @@
+﻿check,value,expected,passed,status
+scatter coordinates,56,56,True,PASS
+identity line equal x/y,2,2,True,PASS
+histogram count sum,56,56,True,PASS
+zero reference line,0,0,True,PASS

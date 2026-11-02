@@ -1,0 +1,18 @@
+﻿column,selected,available_at_prediction,target_ingredient,post_outcome_or_id,role,reason
+order_month,True,True,False,False,allowed_feature,주문 접수 시 달력에서 계산하는 월(1~12)
+order_dayofweek,True,True,False,False,allowed_feature,주문 접수 시 달력에서 계산하는 요일(월=0~일=6)
+age,True,True,False,False,allowed_feature,접수 시 사용 가능한 고객 나이로 가정; 과거 시점 이력 없음
+payment_method,True,True,False,False,allowed_feature,접수 초기 고객이 고른 예정 결제수단으로 가정
+gender,True,True,False,False,allowed_feature,접수 시 고객 프로필에 이미 등록된 값으로 가정
+city,True,True,False,False,allowed_feature,접수 시 고객 프로필 도시로 가정; 과거 변경 이력 없음
+avg_unit_price,False,False,True,False,forbidden,주문 상세에서 만든 목표 대리 변수
+customer_id,False,False,False,True,forbidden,고객 식별자
+item_count,False,False,True,False,forbidden,주문 상세가 확인된 뒤 계산되는 사후 집계
+line_total,False,False,True,False,forbidden,목표값을 구성하는 주문 상세 금액
+order_id,False,False,False,True,forbidden,주문 식별자
+order_status,False,False,False,True,forbidden,예측 시점 이후에 확정될 수 있는 사후 정보
+order_total,False,False,True,False,forbidden,예측 대상 자체
+product_id,False,False,False,True,forbidden,주문 상세가 확인되어야 알 수 있는 식별자
+quantity,False,False,True,False,forbidden,목표값 계산 재료
+total_quantity,False,False,True,False,forbidden,주문 상세에서 만든 목표 대리 변수
+unit_price,False,False,True,False,forbidden,목표값 계산 재료

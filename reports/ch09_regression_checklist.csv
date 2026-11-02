@@ -1,0 +1,13 @@
+﻿check_item,status,evidence
+예측 시점·프로필 정보 가정 명시,PASS,report
+목표값과 계산 재료를 Feature에서 제외,PASS,feature_audit
+사후 주문 상태와 식별자를 Feature에서 제외,PASS,feature_audit
+각 Train fold에서만 전처리 fit,PASS,preprocessing_audit
+Train/Final Test 날짜 엄격 분리,PASS,split_summary
+CV Train/Validation 날짜 엄격 분리,PASS,cv_folds
+Train CV 최저 MAE로 비Baseline 모델 고정,PASS,selection_manifest
+선택 파일을 먼저 저장한 뒤 Final Test 평가,PASS,selection_order
+Final Test는 Baseline과 고정모델만 비교,PASS,model_comparison
+MAE·RMSE·R²와 낮은 성능도 보고,PASS,model_comparison
+공개 결과에 원본 식별자와 개별 날짜 제외,PASS,public_predictions
+실제 그래프 값과 계산 지표 대조,PASS,artist_checks / metric_checks
