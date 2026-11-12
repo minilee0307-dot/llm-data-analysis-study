@@ -1,0 +1,4 @@
+﻿model,evaluation_split,accuracy,precision,recall,f1,tn,fp,fn,tp
+Dummy Most Frequent,validation,0.74,0.0,0.0,0.0,37,0,13,0
+Logistic Regression,validation,0.72,0.4666666666666667,0.5384615384615384,0.5,29,8,6,7
+Random Forest,validation,0.66,0.3333333333333333,0.3076923076923077,0.32,29,8,9,4

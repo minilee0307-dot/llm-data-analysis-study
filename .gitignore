@@ -10,3 +10,6 @@ data-analysis-project/data/raw/
 data/ch09/
 reports/ch09_regression_model_data_internal.csv
 reports/ch09_regression_predictions_internal.csv
+data/ch10/
+reports/ch10_classification_model_data_internal.csv
+reports/ch10_classification_predictions_internal.csv

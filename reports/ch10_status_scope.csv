@@ -1,0 +1,4 @@
+﻿order_status,order_count,used_for_binary_target,class_label
+completed,184,True,0
+cancelled,64,True,1
+refunded,52,False,

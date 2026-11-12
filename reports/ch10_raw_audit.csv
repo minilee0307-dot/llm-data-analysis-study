@@ -1,0 +1,6 @@
+﻿check,rows_compared,passed
+raw_status_frequency,300,True
+raw_detail_line_total,764,True
+raw_order_feature_values,300,True
+raw_binary_order_feature_values,248,True
+raw_binary_labels,248,True

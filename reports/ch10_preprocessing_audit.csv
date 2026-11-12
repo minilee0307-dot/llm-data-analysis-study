@@ -1,0 +1,22 @@
+﻿model,check,train_rows,passed
+Dummy Most Frequent,median,148,True
+Dummy Most Frequent,scaler_mean,148,True
+Dummy Most Frequent,scaler_variance,148,True
+Dummy Most Frequent,scaler_fit_rows,148,True
+Dummy Most Frequent,categorical_mode,148,True
+Dummy Most Frequent,encoded_categories,148,True
+Dummy Most Frequent,unknown_categories_ignored,148,True
+Logistic Regression,median,148,True
+Logistic Regression,scaler_mean,148,True
+Logistic Regression,scaler_variance,148,True
+Logistic Regression,scaler_fit_rows,148,True
+Logistic Regression,categorical_mode,148,True
+Logistic Regression,encoded_categories,148,True
+Logistic Regression,unknown_categories_ignored,148,True
+Random Forest,median,148,True
+Random Forest,scaler_mean,148,True
+Random Forest,scaler_variance,148,True
+Random Forest,scaler_fit_rows,148,True
+Random Forest,categorical_mode,148,True
+Random Forest,encoded_categories,148,True
+Random Forest,unknown_categories_ignored,148,True

@@ -1,0 +1,137 @@
+﻿evaluation,metric,recalculated,observed,passed
+validation:Dummy Most Frequent,tn,37.0,37.0,True
+validation:Dummy Most Frequent,fp,0.0,0.0,True
+validation:Dummy Most Frequent,fn,13.0,13.0,True
+validation:Dummy Most Frequent,tp,0.0,0.0,True
+validation:Dummy Most Frequent,accuracy,0.74,0.74,True
+validation:Dummy Most Frequent,precision,0.0,0.0,True
+validation:Dummy Most Frequent,recall,0.0,0.0,True
+validation:Dummy Most Frequent,f1,0.0,0.0,True
+validation:Logistic Regression,tn,29.0,29.0,True
+validation:Logistic Regression,fp,8.0,8.0,True
+validation:Logistic Regression,fn,6.0,6.0,True
+validation:Logistic Regression,tp,7.0,7.0,True
+validation:Logistic Regression,accuracy,0.72,0.72,True
+validation:Logistic Regression,precision,0.4666666666666667,0.4666666666666667,True
+validation:Logistic Regression,recall,0.5384615384615384,0.5384615384615384,True
+validation:Logistic Regression,f1,0.5,0.5,True
+validation:Random Forest,tn,29.0,29.0,True
+validation:Random Forest,fp,8.0,8.0,True
+validation:Random Forest,fn,9.0,9.0,True
+validation:Random Forest,tp,4.0,4.0,True
+validation:Random Forest,accuracy,0.66,0.66,True
+validation:Random Forest,precision,0.3333333333333333,0.3333333333333333,True
+validation:Random Forest,recall,0.3076923076923077,0.3076923076923077,True
+validation:Random Forest,f1,0.32,0.32,True
+validation:threshold=0.20,tn,2.0,2.0,True
+validation:threshold=0.20,fp,35.0,35.0,True
+validation:threshold=0.20,fn,0.0,0.0,True
+validation:threshold=0.20,tp,13.0,13.0,True
+validation:threshold=0.20,accuracy,0.3,0.3,True
+validation:threshold=0.20,precision,0.2708333333333333,0.2708333333333333,True
+validation:threshold=0.20,recall,1.0,1.0,True
+validation:threshold=0.20,f1,0.4262295081967213,0.4262295081967213,True
+validation:threshold=0.25,tn,4.0,4.0,True
+validation:threshold=0.25,fp,33.0,33.0,True
+validation:threshold=0.25,fn,0.0,0.0,True
+validation:threshold=0.25,tp,13.0,13.0,True
+validation:threshold=0.25,accuracy,0.34,0.34,True
+validation:threshold=0.25,precision,0.2826086956521739,0.2826086956521739,True
+validation:threshold=0.25,recall,1.0,1.0,True
+validation:threshold=0.25,f1,0.4406779661016949,0.4406779661016949,True
+validation:threshold=0.30,tn,10.0,10.0,True
+validation:threshold=0.30,fp,27.0,27.0,True
+validation:threshold=0.30,fn,1.0,1.0,True
+validation:threshold=0.30,tp,12.0,12.0,True
+validation:threshold=0.30,accuracy,0.44,0.44,True
+validation:threshold=0.30,precision,0.3076923076923077,0.3076923076923077,True
+validation:threshold=0.30,recall,0.9230769230769231,0.9230769230769231,True
+validation:threshold=0.30,f1,0.46153846153846156,0.46153846153846156,True
+validation:threshold=0.35,tn,15.0,15.0,True
+validation:threshold=0.35,fp,22.0,22.0,True
+validation:threshold=0.35,fn,2.0,2.0,True
+validation:threshold=0.35,tp,11.0,11.0,True
+validation:threshold=0.35,accuracy,0.52,0.52,True
+validation:threshold=0.35,precision,0.3333333333333333,0.3333333333333333,True
+validation:threshold=0.35,recall,0.8461538461538461,0.8461538461538461,True
+validation:threshold=0.35,f1,0.4782608695652174,0.4782608695652174,True
+validation:threshold=0.40,tn,21.0,21.0,True
+validation:threshold=0.40,fp,16.0,16.0,True
+validation:threshold=0.40,fn,3.0,3.0,True
+validation:threshold=0.40,tp,10.0,10.0,True
+validation:threshold=0.40,accuracy,0.62,0.62,True
+validation:threshold=0.40,precision,0.38461538461538464,0.38461538461538464,True
+validation:threshold=0.40,recall,0.7692307692307693,0.7692307692307693,True
+validation:threshold=0.40,f1,0.5128205128205128,0.5128205128205128,True
+validation:threshold=0.45,tn,26.0,26.0,True
+validation:threshold=0.45,fp,11.0,11.0,True
+validation:threshold=0.45,fn,4.0,4.0,True
+validation:threshold=0.45,tp,9.0,9.0,True
+validation:threshold=0.45,accuracy,0.7,0.7,True
+validation:threshold=0.45,precision,0.45,0.45,True
+validation:threshold=0.45,recall,0.6923076923076923,0.6923076923076923,True
+validation:threshold=0.45,f1,0.5454545454545454,0.5454545454545454,True
+validation:threshold=0.50,tn,29.0,29.0,True
+validation:threshold=0.50,fp,8.0,8.0,True
+validation:threshold=0.50,fn,6.0,6.0,True
+validation:threshold=0.50,tp,7.0,7.0,True
+validation:threshold=0.50,accuracy,0.72,0.72,True
+validation:threshold=0.50,precision,0.4666666666666667,0.4666666666666667,True
+validation:threshold=0.50,recall,0.5384615384615384,0.5384615384615384,True
+validation:threshold=0.50,f1,0.5,0.5,True
+validation:threshold=0.55,tn,32.0,32.0,True
+validation:threshold=0.55,fp,5.0,5.0,True
+validation:threshold=0.55,fn,7.0,7.0,True
+validation:threshold=0.55,tp,6.0,6.0,True
+validation:threshold=0.55,accuracy,0.76,0.76,True
+validation:threshold=0.55,precision,0.5454545454545454,0.5454545454545454,True
+validation:threshold=0.55,recall,0.46153846153846156,0.46153846153846156,True
+validation:threshold=0.55,f1,0.5,0.5,True
+validation:threshold=0.60,tn,33.0,33.0,True
+validation:threshold=0.60,fp,4.0,4.0,True
+validation:threshold=0.60,fn,7.0,7.0,True
+validation:threshold=0.60,tp,6.0,6.0,True
+validation:threshold=0.60,accuracy,0.78,0.78,True
+validation:threshold=0.60,precision,0.6,0.6,True
+validation:threshold=0.60,recall,0.46153846153846156,0.46153846153846156,True
+validation:threshold=0.60,f1,0.5217391304347826,0.5217391304347826,True
+validation:threshold=0.65,tn,33.0,33.0,True
+validation:threshold=0.65,fp,4.0,4.0,True
+validation:threshold=0.65,fn,9.0,9.0,True
+validation:threshold=0.65,tp,4.0,4.0,True
+validation:threshold=0.65,accuracy,0.74,0.74,True
+validation:threshold=0.65,precision,0.5,0.5,True
+validation:threshold=0.65,recall,0.3076923076923077,0.3076923076923077,True
+validation:threshold=0.65,f1,0.38095238095238093,0.38095238095238093,True
+validation:threshold=0.70,tn,33.0,33.0,True
+validation:threshold=0.70,fp,4.0,4.0,True
+validation:threshold=0.70,fn,10.0,10.0,True
+validation:threshold=0.70,tp,3.0,3.0,True
+validation:threshold=0.70,accuracy,0.72,0.72,True
+validation:threshold=0.70,precision,0.42857142857142855,0.42857142857142855,True
+validation:threshold=0.70,recall,0.23076923076923078,0.23076923076923078,True
+validation:threshold=0.70,f1,0.3,0.3,True
+validation:threshold=0.75,tn,36.0,36.0,True
+validation:threshold=0.75,fp,1.0,1.0,True
+validation:threshold=0.75,fn,10.0,10.0,True
+validation:threshold=0.75,tp,3.0,3.0,True
+validation:threshold=0.75,accuracy,0.78,0.78,True
+validation:threshold=0.75,precision,0.75,0.75,True
+validation:threshold=0.75,recall,0.23076923076923078,0.23076923076923078,True
+validation:threshold=0.75,f1,0.35294117647058826,0.35294117647058826,True
+validation:threshold=0.80,tn,37.0,37.0,True
+validation:threshold=0.80,fp,0.0,0.0,True
+validation:threshold=0.80,fn,12.0,12.0,True
+validation:threshold=0.80,tp,1.0,1.0,True
+validation:threshold=0.80,accuracy,0.76,0.76,True
+validation:threshold=0.80,precision,1.0,1.0,True
+validation:threshold=0.80,recall,0.07692307692307693,0.07692307692307693,True
+validation:threshold=0.80,f1,0.14285714285714285,0.14285714285714285,True
+test_final:frozen_pair,tn,24.0,24.0,True
+test_final:frozen_pair,fp,13.0,13.0,True
+test_final:frozen_pair,fn,7.0,7.0,True
+test_final:frozen_pair,tp,6.0,6.0,True
+test_final:frozen_pair,accuracy,0.6,0.6,True
+test_final:frozen_pair,precision,0.3157894736842105,0.3157894736842105,True
+test_final:frozen_pair,recall,0.46153846153846156,0.46153846153846156,True
+test_final:frozen_pair,f1,0.375,0.375,True

@@ -1,0 +1,5 @@
+﻿check,passed
+class_ratio_bars,True
+validation_metric_bars,True
+threshold_curves_and_marker,True
+final_confusion_matrix_cells,True

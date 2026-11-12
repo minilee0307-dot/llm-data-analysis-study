@@ -1,0 +1,4 @@
+﻿split,orders,completed,cancelled,cancelled_ratio
+Train,148,110,38,0.25675675675675674
+Validation,50,37,13,0.26
+Test,50,37,13,0.26

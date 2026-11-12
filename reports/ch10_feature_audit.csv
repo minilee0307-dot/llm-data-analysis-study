@@ -1,0 +1,25 @@
+﻿column,selected,role,reason
+age,True,numeric,주문 접수 때 확인 가능한 고객 나이라고 가정
+item_count,True,numeric,접수 시점에 확인 가능하다고 가정한 주문 상세 행 수
+total_quantity,True,numeric,접수 시점에 확인 가능하다고 가정한 주문 수량 합계
+order_amount,True,numeric,접수 시점에 확인 가능하다고 가정한 수량 × 단가 합계(원)
+order_month,True,numeric,주문 접수일의 월
+order_dayofweek,True,numeric,주문 접수일의 요일(월요일=0)
+gender,True,categorical,주문 접수 시점 고객 프로필로 가정
+city,True,categorical,주문 접수 시점 고객 프로필로 가정
+payment_method,True,categorical,주문 접수 시 선택한 결제 수단이라고 가정
+order_status,False,excluded,"사후 확정 상태, 타깃 정의에만 사용"
+is_cancelled,False,excluded,정답 라벨
+order_id,False,excluded,주문 병합용 원본 키
+customer_id,False,excluded,고객 병합용 원본 키
+product_id,False,excluded,주문 상세의 원본 상품 키
+order_item_id,False,excluded,주문 상세 원본 키
+source_index,False,excluded,내부 검증 행 참조
+cancel_reason,False,excluded,취소 이후 정보
+cancelled_at,False,excluded,취소 이후 정보
+refund_status,False,excluded,환불 이후 정보
+refund_at,False,excluded,환불 이후 정보
+name,False,excluded,개인 식별 정보
+order_date,False,excluded,일부 파생값 계산 및 감사에만 사용
+signup_date,False,excluded,주문 이전 정보였는지 확인되지 않아 날짜 감사에만 사용
+days_since_signup,False,excluded,가입일이 주문일보다 늦은 행이 관측되어 입력에서 제외

@@ -1,0 +1,5 @@
+﻿dataset,source_url,sha256,rows,columns,status
+customers,https://raw.githubusercontent.com/GilbertMoon/llm-data-analysis-course/6105f42bd8294cb364dde6dcc2fee71c32e14794/data/raw/customers.csv,3b31aaefa66505f0a1820ccd89f0eac3b5e12830b71ecb45f2b65928bcdfb143,150,6,PASS
+products,https://raw.githubusercontent.com/GilbertMoon/llm-data-analysis-course/6105f42bd8294cb364dde6dcc2fee71c32e14794/data/raw/products.csv,46ff06753ade3e71011ee08dd366148dcd9c36521f111840cead0a9d1047e405,100,4,PASS
+orders,https://raw.githubusercontent.com/GilbertMoon/llm-data-analysis-course/6105f42bd8294cb364dde6dcc2fee71c32e14794/data/raw/orders.csv,8f6e7ee39aa5ee6e229199532caa84bd9d4d30ef2abc2b9412cf45b0b2fdbfae,300,5,PASS
+order_items,https://raw.githubusercontent.com/GilbertMoon/llm-data-analysis-course/6105f42bd8294cb364dde6dcc2fee71c32e14794/data/raw/order_items.csv,a7a5c3942b0886c66cb38cc6a10fdfa68dbcde90e8642585dee49c4bd104063a,764,5,PASS
