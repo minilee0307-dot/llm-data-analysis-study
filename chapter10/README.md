@@ -16,4 +16,4 @@ python scripts/run_classification_analysis.py
 
 원본 캐시와 내부 예측 자료는 Git에서 제외한다. 공개 결과와 지표 검증은 [Validation 보고서](../reports/ch10_classification_validation.csv), 별도 검토와 반영은 [LLM 검토 기록](llm_review.md)에 남겼다. 작성, 실행, 검토에 Codex의 도움을 받았다.
 
-**PARTIAL**. [최종 Notebook 파일 URL](https://github.com/minilee0307-dot/llm-data-analysis-study/blob/main/chapter10/chapter10.ipynb)의 eTL 접수 확인 대기.
+**COMPLETE**. GitHub에서 본문, 실행 출력, 그래프 4개를 확인했다. eTL에 2026-11-12 13:20(KST) [최종 Notebook 파일 URL](https://github.com/minilee0307-dot/llm-data-analysis-study/blob/main/chapter10/chapter10.ipynb)이 접수됐다.
